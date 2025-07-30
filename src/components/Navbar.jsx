@@ -12,7 +12,7 @@ const Navbar = ({darkMode , setDarkMode}) => {
       </ul>
       <button
           onClick={() => setDarkMode(!darkMode)}
-          className="px-2 py-1 rounded border  dark:bg-gray-700 dark:text-white"
+          className="px-2 py-1 rounded border"
         >
           {darkMode ? <i className="ri-sun-fill text-lg"></i> : <i className="ri-contrast-2-line text-lg"></i>}
       </button>
