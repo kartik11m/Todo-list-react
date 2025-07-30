@@ -162,7 +162,7 @@ function App() {
         </div>
         <div id="red-box" className="flex justify-center items-center w-20 py-2 bg-red-500 rounded-lg text-white  -translate-x-100 opacity-0">Created</div>
       </div>
-      <Footer />
+      <Footer darkMode={darkMode} setDarkMode={setDarkMode}/>
     </>
   )
 }
