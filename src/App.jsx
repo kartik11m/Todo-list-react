@@ -145,7 +145,7 @@ function App() {
                   checked={item.isCompleted}
                   onChange={() => dispatch(toggleTodo(item.id))}
                  />
-                <span className={`${item.isCompleted ? "line-through dark:text-gray-400" : ""}`}>
+                <span className={`${item.isCompleted ? "line-through" : ""}`}>
                 {item.todo}
                 </span>
                 <div className="flex gap-3">
